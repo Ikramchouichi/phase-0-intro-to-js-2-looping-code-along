@@ -10,3 +10,12 @@ function writeCards(names, event) {
 
 const cards = writeCards(["Charlie", "Samip", "Ali"], "birthday");
 console.log(cards);
+function countDown(number) {
+    while (number >= 0) {
+        console.log(number);
+        number--;
+    }
+}
+
+// Example usage
+countDown(10);
